@@ -1,0 +1,138 @@
+# Goal: snakemake workflow to map the reads of metatranscriptomes or metagenomes to a f3m genes catalogs.
+
+############################ 
+###### General params ######
+############################ 
+
+## Working directory
+workdir : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m
+
+# F3M_Builder installation path
+f3m_builder_path : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/f3m_builder
+
+## Samples list: 2 modes (that are exclusives: so please comment the section that is not used ):
+### 1. Either you define a pattern of sample path like /mySamplesDirPath/subdir/pattern*.fastq.gz (with different extensions possible for fastq files zipped or not)
+#samples_pattern : 
+samples_pattern : /work_projet/domino/analysis_rb/cereals_bdd/B_process_data_fastq/3_f3m/*.fastq.gz
+
+### 2. Or you define a sample dir and a list of samples (in this case please let samples_pattern void like the commented line above)
+#### Directory containing the fastq files of the metagenomes (or metatranscriptomes) that will be mapped on the gene catalog 
+#samples_dir : path/to/your_input_samples_directory
+#### Names list of the samples that will be mapped (the sample name should be contained in the filename before the file extension)
+#samples : [sampleA, sampleB, sampleC]
+
+## IN ANY CASES please define: the fastq file extensions
+reads_files_extension : fastq.gz
+
+## IN ANY CASES please define: Paired end or Single end mode
+paired_end_mode : TRUE
+
+## IF PAIRED END = TRUE : Suffix of the fastq forward filenames (before the file extension)
+forward_suffix : _1
+## IF PAIRED END = TRUE : Suffix of the fastq reverse filenames (before the file extension)
+reverse_suffix : _2
+
+
+## Path of the fasta file containing the genes catalog
+gene_catalog_reference_fasta_file: /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/add_f3m_annotations_to_fasta/all_specI_genes_with_f3m_tags.fasta
+
+## Path of the f3m annotations file (eggnog mapper like output format) for the genes catalog
+gene_catalog_eggnog_file: /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/add_f3m_tags_to_eggnog_annots/all_specI_annotations_with_f3m_tags.tsv
+
+## Path of the GTDB taxonomic classification file of the genes catalog (this file could be generated with the specI list by using the script generate_a_specI_gtdb_classification_table.py)
+specI_gtdb_classification_file: /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/bdd_progenomes_list.tab
+
+## Conda env used for Python scripts
+python_scripts_env : python_scripts_env
+
+## Name of the field with the progenomes clusters names in the gene catalog description file 
+## Recommanded name: "specI" (by default we use the name in the regular header of progenome)
+clusterFieldInDescriptionFile : specI
+## Name of the field with the species in the gene catalog description file
+## Recommanded name: "species" (by default we use the name in the regular header of progenome)
+speciesFieldInDescriptionFile : species
+
+
+############################ 
+####### Rules params #######
+############################ 
+
+
+#############################################################  
+####### Remove rRNA reads ###################################  
+#############################################################
+
+## Boolean (True/False) to specify wether we have to remove rRNA sequences in the fastq inputs (recommanded for metatranscriptomes)
+remove_r_rna : False
+## path/to/your_sortmerna_databases : if several dbs are used: please separate their paths with " --ref "
+sortmernadb: 
+## path/to/your_sortmerna_databases_indices 
+sortmernaidx: 
+## Number of threads
+nb_threads_remove_r_rna : 2
+
+## Name of the subdirectory for this rule
+remove_r_rna_reads_subdir : remove_r_rna
+
+## Conda environment for sortmerna
+sortmerna_conda_env : sortmerna-4.3.6
+
+#############################################################  
+####### Decontamination from host genome ####################  
+#############################################################
+
+## Boolean (True/False) for launching the decontamination from host genome(s)
+remove_host : FALSE
+## Path of the fasta file containing the host genome's sequence to remove
+## If sequences from several host genomes need to be removed, please concatenate those genomes in the same fasta file
+host_genome_path : path/to/your_host_genome/first_db.fasta
+
+#############################################################  
+####### map_and_count_reads #################################  
+#############################################################
+
+## map_and_count_reads subdirectory
+map_and_count_reads_subdir : map_and_count_reads
+
+## path of the script to map the reads over the gene catalog
+map_and_count_reads_script : map_MG_on_gene_catalog.ngl
+
+## path of the script to map the reads over the gene catalog with a host genome decontamination
+map_and_count_reads_script_remove_host : map_MG_on_gene_catalog_removing_host.ngl
+
+## Number of threads
+nb_threads_map_and_count_reads : 32
+
+## Minimum base calling quality for trimming in the QC step (phred score, recommanded value: 20)
+min_quality : 20
+
+## Minimum read length to keep a read after trimming (during the QC step; recommanded value: 45)
+min_length : 45
+
+## Conda environment for ngless
+ngless_conda_env : ngless-1.5.0
+
+
+#############################################################  
+####### concat_counting_tables ############################## 
+#############################################################
+## concat_counting_tables subdirectory
+concat_counting_tables_subdir : concat_counting_tables
+
+## Path of the script to merge the genes abundancies tables
+merge_abundancies_tables_script : merge_genes_abundancies_tables.py
+
+## Abundancies tables names suffix
+abundancies_tables_names_suffix : _genes_abundancies_with_species_and_functions.tsv
+
+
+#############################################################  
+####### add functions and species ########################### 
+#############################################################
+## add functions and species subdirectory
+add_functions_and_species_subdir : add_functions_and_species
+
+## Script to add_functions and species to the abundancies table
+script_to_add_functions_and_species : add_species_and_functions_to_abundancies_table.py
+
+

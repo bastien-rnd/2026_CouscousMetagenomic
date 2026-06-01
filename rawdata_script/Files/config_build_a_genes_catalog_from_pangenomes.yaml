@@ -1,0 +1,117 @@
+# Goal: snakemake workflow to build a genes catalogs with a list of pangenomes (progenome specIs).
+
+############################ 
+###### General params ######
+############################ 
+
+# Directory representing the root of the architecture containing the results files and the temporary files
+workdir : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m
+
+# F3M_Builder installation path
+f3m_builder_path : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/f3m_builder
+
+# Input file (separator = tabulation) containing the pangenomes (progenome specIs).
+species_progenome_specIs_file : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/bdd_progenomes_list_new.tab
+
+# f3m modules description file
+f3m_modules_description_file : /work_projet/domino/analysis_rb/cereals_bdd/F_f3m/f3m_builder/data/Food_Microbiomes_Metabolic_Modules_V1_1_0.tsv
+
+# Boolean to state if there are additionel genomes for which we want to use the cds among progenome specIs. 
+# If true : we need to set the directories to find the data (see the 2 following parameters) and the column "additional_genomes" must be filled in the species_progenome_specIs_file
+do_we_add_additional_genomes_to_specIs: false  # Set this to `false` if you don't want the rule to be triggered
+
+# Directory to store the genes predictions of the additional genomes
+additional_genomes_genes_predictions_directory : /path/to/the_cds_predictions_directory_for_additionnal_genomes
+
+## Conda env used for Python scripts
+python_scripts_env : python_scripts_env
+
+
+
+############################ 
+####### Rules params #######
+############################ 
+
+#############################################################  
+### download_progenome_specIs_fasta_files rule parameters ###
+############################################################# 
+
+# download_progenome_specIs_fasta_files rule output sub-directory
+dl_progenome_specIs_subdir : dl_progenome_specis
+
+#############################################################
+## add_additional_genomes_to_specIs rule parameters #########
+#############################################################
+
+# add_additional_genomes_to_specIs rule output sub-directory
+add_additional_genomes_to_specIs_subdir : add_additional_genomes_to_specIs
+# name of the script used to merge the additional genes predictions to the pangenomes
+merge_additional_genomes_script : merge_the_genes_of_additional_genomes_to_progenome_specIs.py
+
+#############################################################  
+### Remove redondancy rule parameters ####################### 
+#############################################################
+
+# Remove redondancy sub-directory
+remove_redondancy_subdir : remove_redondancy
+
+############################################################# 
+### merge_genes_clusters rule parameters ####################
+############################################################# 
+
+# merge_genes_clusters subdir
+merge_genes_clusters_subdir : merge_genes_clusters
+
+############################################################# 
+### convert_and_agreggate_clstr_to_tab rule parameters ###### 
+############################################################# 
+
+# convert_and_agreggate_clstr_to_tab subdirectory
+convert_and_agreggate_clstr_to_tab_subdir : convert_and_agreggate_clstr_to_tab
+clstr2txt_script : clstr2txt.pl
+
+############################################################# 
+### convert_clusters_genes_to_proteins rule parameters #######
+############################################################# 
+
+# convert_clusters_genes_to_proteins sub-directory
+convert_clusters_genes_to_proteins_subdir : genes_to_proteins_subdir
+# script to convert the CDS to proteins sequences
+convert_clusters_genes_to_proteins_script : convert_CDS_to_proteins.py
+
+############################################################# 
+### eggnog rule parameters ##################################
+############################################################# 
+
+# eggnog results sub-directory
+eggnog_subdirectory : eggnog
+# directory of eggnog mapper's database
+eggnog_datadir : /db/outils/eggnog-mapper-2.1.8
+# number of cpus used for egnogg mapper analyses (recommanded: 32)
+em_cpus : 32
+
+#################################################################################### 
+### complete_the_annotations_report_with_genes_without_functions rule parameters ### 
+#################################################################################### 
+# Sub-directory of the rule used to add functionless genes to the eggnog output
+complete_the_annotations_subdir : complete_the_annotations
+# Script used to add functionless genes to the eggnog output
+complete_the_annotations_script : complete_eggnog_output_adding_genes_without_functions.py
+
+############################################################# 
+### add_f3m_annotations_to_eggnog_annotations rule ########## 
+############################################################# 
+
+# add_f3m_annotations_to_eggnog_annotations sub-directory
+add_f3m_annotations_to_eggnog_annotations_subdir: add_f3m_tags_to_eggnog_annots
+# script used to add the f3m annotation to the eggnog outputs
+add_f3m_annotations_to_eggnog_annotations_script : add_f3m_annotations_to_eggnog_file.py
+
+############################################################# 
+### add_f3m_annotations_to_fasta rule #######################
+############################################################# 
+
+# add_f3m_annotations_to_fasta sub-directory
+add_f3m_annotations_to_fasta_subdir : add_f3m_annotations_to_fasta
+# script used to add the f3m annotation to the headers of the genes in the fasta file of the genes catalog
+add_f3m_annotations_to_fasta_script : add_f3m_annotations_to_fasta_file.py
