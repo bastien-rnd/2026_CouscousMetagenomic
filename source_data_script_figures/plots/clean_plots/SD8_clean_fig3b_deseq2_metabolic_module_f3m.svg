@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="88mm"
+   height="58.000195mm"
+   viewBox="0 0 249.44883 164.41"
+   version="1.1"
+   id="svg54"
+   sodipodi:docname="SD8_clean_fig3b_deseq2_metabolic_module_f3m.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs54">
+    <rect
+       x="295.36501"
+       y="145.30691"
+       width="59.785678"
+       height="17.816924"
+       id="rect19" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview54"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="1.7859315"
+     inkscape:cx="167.41964"
+     inkscape:cy="106.66703"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g53" />
+  <g
+     class="svglite"
+     id="g54"
+     transform="translate(-16.02393,0.41994892)">
+    <defs
+       id="defs1">
+      <style
+         type="text/css"
+         id="style1"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <rect
+       width="100%"
+       height="100%"
+       style="fill:#ffffff;stroke:none"
+       id="rect1"
+       x="0"
+       y="0" />
+    <defs
+       id="defs2">
+      <clipPath
+         id="cpMC4wMHwzMjUuOTh8MC4wMHwxNjQuNDE=">
+        <rect
+           x="0"
+           y="0"
+           width="325.98001"
+           height="164.41"
+           id="rect2" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMC4wMHwzMjUuOTh8MC4wMHwxNjQuNDE=)"
+       id="g3">
+      <rect
+         x="0"
+         y="0"
+         width="325.98001"
+         height="164.41"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1.07"
+         id="rect3" />
+    </g>
+    <defs
+       id="defs4">
+      <clipPath
+         id="cpMTc5LjkxfDI1OS44MHw1LjQ4fDEzMS45OQ==">
+        <rect
+           x="179.91"
+           y="5.48"
+           width="79.889999"
+           height="126.51"
+           id="rect4" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMTc5LjkxfDI1OS44MHw1LjQ4fDEzMS45OQ==)"
+       id="g18">
+      <rect
+         x="179.91"
+         y="5.48"
+         width="79.889999"
+         height="126.51"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect5" />
+      <rect
+         x="183.53999"
+         y="112.34"
+         width="25.450001"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect6" />
+      <rect
+         x="183.53999"
+         y="54.84"
+         width="37.490002"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect7" />
+      <rect
+         x="183.53999"
+         y="102.76"
+         width="25.58"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect8" />
+      <rect
+         x="183.53999"
+         y="93.169998"
+         width="28.620001"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect9" />
+      <rect
+         x="183.53999"
+         y="6.9200001"
+         width="72.629997"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect10" />
+      <rect
+         x="183.53999"
+         y="35.669998"
+         width="51.060001"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect11" />
+      <rect
+         x="183.53999"
+         y="121.93"
+         width="23.07"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect12" />
+      <rect
+         x="183.53999"
+         y="16.5"
+         width="67.57"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect13" />
+      <rect
+         x="183.53999"
+         y="64.419998"
+         width="35.970001"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect14" />
+      <rect
+         x="183.53999"
+         y="83.589996"
+         width="31.34"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect15" />
+      <rect
+         x="183.53999"
+         y="26.09"
+         width="57.939999"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect16" />
+      <rect
+         x="183.53999"
+         y="74.010002"
+         width="35.700001"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect17" />
+      <rect
+         x="183.53999"
+         y="45.25"
+         width="42.869999"
+         height="8.6300001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect18" />
+      <line
+         x1="183.53999"
+         y1="131.99001"
+         x2="183.53999"
+         y2="5.48"
+         style="stroke:#333333;stroke-width:0.53;stroke-linecap:butt"
+         id="line18" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHwzMjUuOTh8MC4wMHwxNjQuNDE=)"
+       id="g53">
+      <text
+         x="174.98"
+         y="128.39"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="119.22"
+         lengthAdjust="spacingAndGlyphs"
+         id="text18"
+         transform="translate(5.0262637)">F3ML_01_fatty_acids_biosynthesis_initiation</text>
+      <text
+         x="174.98"
+         y="118.8"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="96.839996"
+         lengthAdjust="spacingAndGlyphs"
+         id="text19"
+         transform="translate(5.0262637)">F3MS_04_chromosome_partitioning</text>
+      <text
+         x="174.98"
+         y="109.22"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="128.23"
+         lengthAdjust="spacingAndGlyphs"
+         id="text20"
+         transform="translate(5.0262637)">F3MU_09_nucleotides_nucleosides_permeases</text>
+      <text
+         x="174.98"
+         y="99.639999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="95.839996"
+         lengthAdjust="spacingAndGlyphs"
+         id="text21"
+         transform="translate(5.0262637)">F3MU_19_inorganic_ions_channels</text>
+      <text
+         x="174.98"
+         y="90.050003"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="89.160004"
+         lengthAdjust="spacingAndGlyphs"
+         id="text22"
+         transform="translate(5.0262637)">F3MU_16_co-factors_permeases</text>
+      <text
+         x="174.98"
+         y="80.470001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="140.25"
+         lengthAdjust="spacingAndGlyphs"
+         id="text23"
+         transform="translate(5.0262637)">F3MN_14_methionine_cysteine_catabolic_pathways</text>
+      <text
+         x="174.98"
+         y="70.879997"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="99.220001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text24"
+         transform="translate(5.0262637)">F3MP_05_2-3-butanediol_production</text>
+      <text
+         x="174.98"
+         y="61.299999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="95.190002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text25"
+         transform="translate(5.0262637)">F3MU_06_oligopeptide_permeases</text>
+      <text
+         x="174.98"
+         y="51.720001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="160.28"
+         lengthAdjust="spacingAndGlyphs"
+         id="text26"
+         transform="translate(5.0262637)">F3MN_28_tyrosine_phenylalanine_chorismate_biosynthesis</text>
+      <text
+         x="174.98"
+         y="42.130001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="101.44"
+         lengthAdjust="spacingAndGlyphs"
+         id="text27"
+         transform="translate(5.0262637)">F3MF_11_menaquinone_biosynthesis</text>
+      <text
+         x="174.98"
+         y="32.549999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="82.139999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text28"
+         transform="translate(5.0262637)">F3MC_14_glycogen_synthesis</text>
+      <text
+         x="174.98"
+         y="22.959999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="100.83"
+         lengthAdjust="spacingAndGlyphs"
+         id="text29"
+         transform="translate(5.0262637)">F3MC_26_formaldehyde_assimilation</text>
+      <text
+         x="174.98"
+         y="13.38"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="103.81"
+         lengthAdjust="spacingAndGlyphs"
+         id="text30"
+         transform="translate(5.0262637)">F3MC_24_xylose_xyloside_catabolism</text>
+      <polyline
+         points="177.17,126.24 179.91,126.24 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline30"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,116.66 179.91,116.66 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline31"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,107.07 179.91,107.07 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline32"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,97.49 179.91,97.49 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline33"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,87.90 179.91,87.90 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline34"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,78.32 179.91,78.32 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline35"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,68.73 179.91,68.73 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline36"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,59.15 179.91,59.15 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline37"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,49.57 179.91,49.57 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline38"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,39.98 179.91,39.98 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline39"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,30.40 179.91,30.40 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline40"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,20.81 179.91,20.81 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline41"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="177.17,11.23 179.91,11.23 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline42"
+         transform="translate(5.0262637)" />
+      <polyline
+         points="179.91,131.99 259.80,131.99 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline43" />
+      <polyline
+         points="183.54,134.73 183.54,131.99 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline44" />
+      <polyline
+         points="205.55,134.73 205.55,131.99 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline45" />
+      <polyline
+         points="227.55,134.73 227.55,131.99 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline46" />
+      <polyline
+         points="249.56,134.73 249.56,131.99 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline47" />
+      <text
+         x="183.53999"
+         y="141.22"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="8.3599997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text47">0.0</text>
+      <text
+         x="205.55"
+         y="141.22"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="8.3599997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text48">0.5</text>
+      <text
+         x="227.55"
+         y="141.22"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="8.3599997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text49">1.0</text>
+      <text
+         x="249.56"
+         y="141.22"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="8.3599997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text50">1.5</text>
+      <text
+         x="219.86"
+         y="157.46001"
+         text-anchor="middle"
+         style="font-size:7px;font-family:Arial"
+         textLength="57.580002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text51">Log2 Fold Change</text>
+      <rect
+         x="217.4265"
+         y="86.075584"
+         width="49.75"
+         height="37.970001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect51" />
+      <rect
+         x="222.90648"
+         y="107.22559"
+         width="11.34"
+         height="11.34"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect52" />
+      <rect
+         x="228.13095"
+         y="108.14557"
+         width="9.9200001"
+         height="9.9200001"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter"
+         id="rect53" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.75,0,0,0.75,19.278534,0.73491063)"
+         id="text1"
+         style="font-size:6.66667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect19);fill:#000000;stroke-width:1.2;paint-order:markers stroke fill"><tspan
+           x="295.36523"
+           y="151.31167"
+           id="tspan1">p &lt; 0.05</tspan></text>
+    </g>
+  </g>
+</svg>

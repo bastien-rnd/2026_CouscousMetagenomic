@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="58mm"
+   height="49.999191mm"
+   viewBox="0 0 164.40945 141.73"
+   version="1.1"
+   id="svg34"
+   sodipodi:docname="SD15_clean_fig4d_deseq2_taxo_couscous.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs34" />
+  <sodipodi:namedview
+     id="namedview34"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="3.940151"
+     inkscape:cx="152.65912"
+     inkscape:cy="103.42243"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34" />
+  <g
+     class="svglite"
+     id="g34"
+     transform="translate(-14.267217,0.80757832)">
+    <defs
+       id="defs1">
+      <style
+         type="text/css"
+         id="style1"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+    </defs>
+    <rect
+       width="100%"
+       height="100%"
+       style="fill:#ffffff;stroke:none"
+       id="rect1"
+       x="0"
+       y="0" />
+    <defs
+       id="defs2">
+      <clipPath
+         id="cpMC4wMHwyMjYuNzd8MC4wMHwxNDEuNzM=">
+        <rect
+           x="0"
+           y="0"
+           width="226.77"
+           height="141.73"
+           id="rect2" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMC4wMHwyMjYuNzd8MC4wMHwxNDEuNzM=)"
+       id="g3">
+      <rect
+         x="-1.6e-14"
+         y="0"
+         width="226.77"
+         height="141.73"
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:1.07"
+         id="rect3" />
+    </g>
+    <defs
+       id="defs4">
+      <clipPath
+         id="cpMTA5Ljc2fDE2MC41OXw1LjQ4fDEwOS4zMQ==">
+        <rect
+           x="109.76"
+           y="5.48"
+           width="50.830002"
+           height="103.83"
+           id="rect4" />
+      </clipPath>
+    </defs>
+    <g
+       clip-path="url(#cpMTA5Ljc2fDE2MC41OXw1LjQ4fDEwOS4zMQ==)"
+       id="g12">
+      <rect
+         x="109.76"
+         y="5.48"
+         width="50.830002"
+         height="103.83"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect5" />
+      <rect
+         x="109.76"
+         y="7.6399999"
+         width="50.830002"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect6" />
+      <rect
+         x="109.76"
+         y="79.75"
+         width="18.85"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect7" />
+      <rect
+         x="109.76"
+         y="22.059999"
+         width="45.060001"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect8" />
+      <rect
+         x="109.76"
+         y="94.169998"
+         width="17.200001"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect9" />
+      <rect
+         x="109.76"
+         y="65.330002"
+         width="20.67"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect10" />
+      <rect
+         x="109.76"
+         y="36.490002"
+         width="24.76"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect11" />
+      <rect
+         x="109.76"
+         y="50.91"
+         width="21.309999"
+         height="12.98"
+         style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+         id="rect12" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHwyMjYuNzd8MC4wMHwxNDEuNzM=)"
+       id="g33">
+      <polyline
+         points="109.76,109.31 109.76,5.48 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline12" />
+      <text
+         x="104.82"
+         y="102.81"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="54.610001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text12">s__Weissella cibaria</text>
+      <text
+         x="104.82"
+         y="88.389999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="57.970001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text13">s__Weissella confusa</text>
+      <text
+         x="104.82"
+         y="73.970001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="90.120003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text14">s__Limosilactobacillus fermentum</text>
+      <text
+         x="104.82"
+         y="59.549999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="84.529999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text15">s__Acinetobacter sp013417555</text>
+      <text
+         x="104.82"
+         y="45.119999"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="69.120003"
+         lengthAdjust="spacingAndGlyphs"
+         id="text16">s__Empedobacter falsenii</text>
+      <text
+         x="104.82"
+         y="30.700001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="73.110001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text17">s__Staphylococcus warneri</text>
+      <text
+         x="104.82"
+         y="16.280001"
+         text-anchor="end"
+         style="font-size:6px;font-family:Arial"
+         textLength="65.449997"
+         lengthAdjust="spacingAndGlyphs"
+         id="text18">s__Klebsiella aerogenes</text>
+      <polyline
+         points="107.02,100.66 109.76,100.66 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline18" />
+      <polyline
+         points="107.02,86.24 109.76,86.24 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline19" />
+      <polyline
+         points="107.02,71.82 109.76,71.82 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline20" />
+      <polyline
+         points="107.02,57.40 109.76,57.40 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline21" />
+      <polyline
+         points="107.02,42.97 109.76,42.97 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline22" />
+      <polyline
+         points="107.02,28.55 109.76,28.55 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline23" />
+      <polyline
+         points="107.02,14.13 109.76,14.13 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline24" />
+      <polyline
+         points="109.76,109.31 160.59,109.31 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline25" />
+      <polyline
+         points="109.76,112.05 109.76,109.31 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline26" />
+      <polyline
+         points="134.50,112.05 134.50,109.31 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline27" />
+      <polyline
+         points="159.25,112.05 159.25,109.31 "
+         style="stroke-width:0.53;stroke-linecap:butt"
+         id="polyline28" />
+      <text
+         x="109.76"
+         y="118.54"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="3.3399999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text28">0</text>
+      <text
+         x="134.5"
+         y="118.54"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="3.3399999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text29">5</text>
+      <text
+         x="159.25"
+         y="118.54"
+         text-anchor="middle"
+         style="font-size:6px;font-family:Arial"
+         textLength="6.6900001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text30">10</text>
+      <text
+         x="135.17"
+         y="134.78"
+         text-anchor="middle"
+         style="font-size:7px;font-family:Arial"
+         textLength="57.580002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text31">Log2 Fold Change</text>
+      <g
+         id="g35"
+         transform="translate(-39.725065,16.397666)">
+        <rect
+           x="180.52951"
+           y="59.694599"
+           width="11.34"
+           height="11.34"
+           style="fill:#ffffff;stroke:none;stroke-width:1.07"
+           id="rect32" />
+        <rect
+           x="181.22951"
+           y="60.404598"
+           width="9.9200001"
+           height="9.9200001"
+           style="fill:#e69f00;stroke:none;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1"
+           id="rect33" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:5px;line-height:0.7;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:0.984436;stroke:#000000;stroke-width:0.141732;stroke-opacity:0.851441;paint-order:markers stroke fill"
+         x="154.07785"
+         y="83.135902"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:0.7;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.984436;stroke-width:0.141732"
+           x="154.07785"
+           y="83.135902">p &lt; 0.05</tspan></text>
+    </g>
+  </g>
+</svg>
