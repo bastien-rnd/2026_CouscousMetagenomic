@@ -114,7 +114,7 @@ alpha_raw <- alpha_merged_f %>%
 # PLOT --------------------------------------------------------------------
 
 # Parameters to custom
-variable_y <- "Richness"     
+variable_y <- "Evenness"     
 variable_group <- "couscous"    
 colors_vector <- colors[["couscous_colors"]]
 
