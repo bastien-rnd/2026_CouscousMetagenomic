@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="6.0017955"
-     inkscape:cx="515.42909"
-     inkscape:cy="847.663"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
+     inkscape:zoom="2"
+     inkscape:cx="127.25"
+     inkscape:cy="65.25"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -3776,7 +3776,7 @@
              style="font-size:9.33333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect9-5);fill:#000000;stroke-width:1.2;paint-order:markers stroke fill"><tspan
                x="215.32422"
                y="56.473445"
-               id="tspan19">Pielou's evenness index</tspan></text>
+               id="tspan2">Pielou's evenness index</tspan></text>
         </g>
       </g>
       <g
@@ -3881,10 +3881,13 @@
          y="10.7396"
          id="text2"><tspan
            sodipodi:role="line"
-           id="tspan2"
-           style="fill:#000000;stroke-width:0.9"
+           id="tspan4"
            x="105.86594"
-           y="10.7396">p &lt; 0.0001</tspan></text>
+           y="10.7396">p = 8.8e-10</tspan><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           x="105.86594"
+           y="16.989601"></tspan></text>
     </g>
     <g
        class="svglite"
